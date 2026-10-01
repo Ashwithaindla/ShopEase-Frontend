@@ -1,0 +1,40 @@
+.orders-page {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+.orders-page h2 {
+  margin-bottom: 24px;
+  color: #172033;
+}
+
+.order-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.order-card h3 {
+  margin-top: 0;
+  color: #0866e8;
+}
+
+.order-card p {
+  margin: 12px 0;
+  color: #334155;
+  overflow-wrap: anywhere;
+}
+
+.orders-message,
+.orders-error {
+  text-align: center;
+  margin: 40px;
+}
+
+.orders-error {
+  color: #dc2626;
+}
